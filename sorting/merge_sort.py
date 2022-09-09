@@ -65,7 +65,7 @@ def test_number_of_inversions(array):
 
 
 if __name__ == '__main__':
-    array = [9, 33, 3, 9, 2, 4, 2, 3, 1, 5, 4]
+    array = [2, 3, 3, 3, 1, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 4, 8]
     actual_count = test_number_of_inversions(array)
     count = merge_sort(array, 0, len(array) - 1)
     print("actual count:", actual_count)
